@@ -1,0 +1,90 @@
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* * {} s'applique a toute la page. C'est un selecteur universel. */
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 130px 1fr;
+    align-items: center;
+}
+
+.grid-item {
+    margin: 5px;
+    color: #00004d;
+}
+
+
+.heading {
+    font-size: 2em;
+    font-weight: 600;
+    background-color: #e6e6ff;
+    text-align: center;
+}
+
+.side {
+    background-color: rgba(255, 127, 80, 0.185);
+    padding: 25px;
+    margin: 5px;
+    color: #00004d;
+    grid-row: span;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+.content {
+    display: flex;
+    justify-items: center;
+    text-align: justify;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+h3 {
+    font-size: 2em;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro p {
+    max-width: 500px;
+    
+}
+p {
+    color: #00004d;
+}
+
+#profile-pic {
+    width:auto;
+    height:300px;
+    border:#00004d solid 5px;
+    border-radius: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004d0a;
+}
+
